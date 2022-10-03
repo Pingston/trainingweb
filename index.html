@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer sitio web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1> Las mejores series del momento </h1>
+    <div class="container">
+        <titulo>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Series</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Agregar</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Top 3
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Better Call Saul</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Señor de los anillos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Game of Thrones</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">The best series </a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </titulo>
+    </div>
+
+    <div class="series">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+          <h2> Better Call Saul </h2>
+          <div class="imgcontainer">
+            <a href="https://es.wikipedia.org/wiki/Better_Call_Saul" target="_blank">
+              <img src="https://www.cronista.com/files/image/474/474509/62ffe007b929a.png" alt="El actor principal quitandose el saco">
+            </a>
+          </div>
+          <p>Una serie nominada al Emmy que deriva de "Breaking Bad" y sigue la metamorfosis del abogado Jimmy McGill en Saul Goodman, el asesor inescrupuloso de Walter White.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+          <h2> Los anillos del poder </h2>
+          <div class="imgcontainer">
+            <a href="https://es.wikipedia.org/wiki/El_Se%C3%B1or_de_los_Anillos:_los_Anillos_de_Poder" target="_blank">
+              <img src="https://www.aciprensa.com/imagespp/anillos310822.jpeg" alt="Los 3 actores principales">
+            </a>
+          </div>
+          <p>En un tiempo de paz relativa, un grupo de personajes enfrenta la reaparición del mal en Tierra Media. Desde las más profundas oscuridades de las Montañas Nubladas y los majestuosos bosques de Lindon, hasta el impresionante reino insular de Númenor, estos reinos y personajes forjarán un legado que vivirá hasta mucho después de su desaparición</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4">
+          <h2> La casa del dragón </h2>
+          <div class="imgcontainer">
+            <a href="https://es.wikipedia.org/wiki/La_casa_del_drag%C3%B3n" target="_blank">
+              <img src="https://dib.com.ar/wp-content/uploads/2022/08/dragon.jpg" alt="La actriz principal delante de su dragón">
+            </a>
+          </div>
+          <p>La Casa del Dragón es la imprescindible historia de la Casa Targaryen. La serie tiene lugar 200 años antes de Juego de tronos.</p>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>

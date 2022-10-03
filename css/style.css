@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color:rgb(243, 239, 239);
+    font-style: italic;
+    
+}
+
+h2{
+    text-align: center;
+    color:brown;
+    font-style: oblique;
+    background-color:black;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    font-weight: 100 ;
+
+}
+
+.series{
+    align-items: center;
+    position:relative;
+}
+row{
+    background-color: #fff;
+    width: 100%
+
+}
+
+.imgcontainer {
+    margin: auto;
+}
+    
+    .col-md-4,
+    .col-sm-4,
+    .col-lg-4,
+    .col-xl-4 {
+        align-items:stretch;
+    
+    }
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.T1ahiaKBQOtBwl0jdJuUsQHaDq?pid=ImgDet&rs=1);
+    background-size: 15%;
+    background-repeat: repeat;
+}
+img{
+    position: relative;
+    width:auto;
+    height: 240px;
+    padding: 15px;
+  }
+
+p{
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: small;
+    font-weight: 100 ;
+}
+
